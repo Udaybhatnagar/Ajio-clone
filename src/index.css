@@ -1,0 +1,37 @@
+.Navbar {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content:space-between ;
+
+
+}
+.heading{
+  margin-left: 10px;
+}
+.Navbar > ul{
+  display: flex;
+}
+.Navbar >ul >li{
+  list-style: none;
+  padding: 10px;
+font-size: larger;
+}
+.tshirt{
+  width: 200px;
+  height: auto;
+}
+.product-cart{
+  display: flex;
+  flex-wrap: wrap;
+
+  padding:15px;
+
+}
+.Product{
+  width: 300px;
+  height:auto;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+}
