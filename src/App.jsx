@@ -20,15 +20,7 @@ const ProductCart= () =>{
 
   return (
     <div className="product-cart">
-       <Product/>
-        <Product/>
-         <Product/>
-          <Product/>
-           <Product/>
-            <Product/>
-             <Product/>
-              <Product/>
-               <Product/>
+       <Product title="HRX Tshirt" ratings="4.5" price="499 Rs"/>
 
     </div>
   )
@@ -36,13 +28,15 @@ const ProductCart= () =>{
 
 
 
-function Product(){
+function Product(props){
+  const{title,price,ratings}=props;
+
 return (
   <div className="Product">
     <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1739256402_8748785.jpg?w=480&dpr=1.3" alt="" className="tshirt" />
-    <h1>HRX Tshirt</h1>
-    <p>4.5 ratings</p>
-    <p>499 Rs</p>
+    <h1>{title}</h1>
+    <p>{ratings}</p>
+    <p>{price}</p>
   </div>
 )
 
