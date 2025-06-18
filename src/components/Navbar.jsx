@@ -9,6 +9,7 @@ export default function Navbar(){
         <li>Women</li>
         <li>Kids</li>
         <li>Cart</li>
+        ;lfdlf;mal;fmdsfl;jsaf;fmslfm a fkjsd lkfe
       </ul>
 
     </div>
