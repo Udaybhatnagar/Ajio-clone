@@ -7,6 +7,7 @@ return (
     <h1>{title}</h1>
     <p>{ratings}</p>
     <p>{price}</p>
+    lm,. .,mlkamfldmfldkafmd
   </div>
 )
 
