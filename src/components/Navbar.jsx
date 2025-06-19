@@ -11,7 +11,7 @@ export default function Navbar(){
         <li>Cart</li>
       
       </ul>
-
+,f d,f dfnuodahufhaj ajnjkafndidhfkldnfkldfjdkfndlfmdoopdjfopdfmoi
     </div>
   )
 }
