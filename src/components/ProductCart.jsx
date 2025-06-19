@@ -7,7 +7,7 @@ const ProductCart= () =>{
        <Product title="HRX Tshirt" ratings="4.5" price="499 Rs"/>
 
     </div>
-    l;fldamflsdmflakmf
+  
   
   )
 }
