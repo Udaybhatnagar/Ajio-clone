@@ -10,6 +10,5 @@ return (
   
   </div>
 )
-kadsfndkfnaslkdf k da fiodnfkdfdlkfnkekfsdo'
 }
 export default Product;
