@@ -36,7 +36,12 @@ async function  fetchdata(){
     </div>
 
     </div>
+<<<<<<< HEAD
    
+=======
+  
+  
+>>>>>>> 986fbb57f18cb6ae7f001912e969108df1d3b2f5
   )
 }
 export default ProductCart;

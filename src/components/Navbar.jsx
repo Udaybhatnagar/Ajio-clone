@@ -8,7 +8,10 @@ export default function Navbar(){
         <li>Men</li>
         <li>Women</li>
         <li>Kids</li>
+        
+        
         <li>Cart</li>
+      
       </ul>
 
     </div>
