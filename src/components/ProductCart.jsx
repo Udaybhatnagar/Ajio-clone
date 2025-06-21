@@ -3,7 +3,7 @@ import Product from "./Product";
 
 const ProductCart= () =>{
   const [productlist,setproductlist]=useState([]);
-  const [search,setsearh]=useState(" ");
+  const [search,setsearh]=useState("");
 
   useEffect(function(){
     fetchdata();
@@ -15,6 +15,13 @@ async function  fetchdata(){
   setproductlist(resdata);
 }
 
+const handleSearch = () => {
+    const filterdata = productlist.filter((product) =>
+      product.title.toLowerCase().includes(search.toLowerCase())
+    );
+    setproductlist(filterdata);
+  };
+
   return (
     <div>
       <div className="text-box">
@@ -23,12 +30,7 @@ async function  fetchdata(){
          } value={search}/>
 
 
-      <button className="btn-search" onClick={()=>{
-        const filterdata=productlist.filter((product)=>{
-          return  product.title.includes(search);
-        })
-        setsearh(filterdata);
-      }}>Search</button>
+      <button className="btn-search" onClick={handleSearch}>Search</button>
       </div>
        <div className="product-cart">
        {productlist.map((product) => {return <Product key={product.id} product={product} /> }
@@ -36,12 +38,6 @@ async function  fetchdata(){
     </div>
 
     </div>
-<<<<<<< HEAD
-   
-=======
-  
-  
->>>>>>> 986fbb57f18cb6ae7f001912e969108df1d3b2f5
   )
 }
 export default ProductCart;

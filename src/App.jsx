@@ -1,8 +1,8 @@
 
 import Navbar from "./components/Navbar";
-import { Post } from "./components/Post";
 import ProductCart from "./components/ProductCart";
-import { Sateconcept } from "./components/Sateconcept";
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+
 
 
 
