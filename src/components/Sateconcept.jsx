@@ -6,7 +6,7 @@ export const Sateconcept = () => {
   return (
     <div>
         <button onClick={()=>setcount(count+1)}>Increase Count </button>
-       dfdjadfjjfdfj98ffdkfjidjfafdjfijfif 9fudfdifjdfu8dfjf fdffm fj9dufjfdf8 <p>count {count}
+      <p>count {count}
         </p>
 
 
