@@ -8,6 +8,7 @@ export const Sateconcept = () => {
         <button onClick={()=>setcount(count+1)}>Increase Count </button>
       <p>count {count}
         </p>
+        df, df,.d fl;dmf;ldfdl;fmdf
 
 
     </div>
