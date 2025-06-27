@@ -11,7 +11,7 @@ export function PostComponent({name, subtitle, time, image, description}) {
       }} />
       <div style={{fontSize: 10, marginLeft: 10}}>
         <b>
-          udaybhabtiabgnkjanjdhnfkdnfoijdf, dfoidjfadkfdk;fjaiojfoif
+         
           {name}
         </b>
         <div>{subtitle}</div>
