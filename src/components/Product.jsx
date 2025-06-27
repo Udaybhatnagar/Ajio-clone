@@ -8,5 +8,5 @@ return (
   </div>
 )
 }
-adfdfadfkjaksdnfkadnfiodfnakl
+
 export default Product;
